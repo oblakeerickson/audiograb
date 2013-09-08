@@ -1,0 +1,5 @@
+tell application "iTunes"
+	duplicate track "Big Ruby Conf 2013 Keynote by Jim Weirich-vIHdhaF2R2w.mp3" to playlist "talks"
+end tell
+
+tell application "iTunes" to name of tracks of playlist "talks"
